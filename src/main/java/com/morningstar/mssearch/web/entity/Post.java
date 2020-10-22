@@ -10,6 +10,15 @@ public class Post {
     private String sourceType;
     private String url;
     private String createTime;
+    private String username;
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
     public String getSourceType() {
         return sourceType;

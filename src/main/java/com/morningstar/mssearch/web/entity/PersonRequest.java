@@ -1,4 +1,4 @@
-package com.morningstar.mssearch.web.request;
+package com.morningstar.mssearch.web.entity;
 
 public class PersonRequest {
 

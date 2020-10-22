@@ -2,7 +2,7 @@ package com.morningstar.mssearch.web.controller;
 
 import com.morningstar.mssearch.common.response.Response;
 import com.morningstar.mssearch.common.response.ResponseCode;
-import com.morningstar.mssearch.web.request.PersonRequest;
+import com.morningstar.mssearch.web.entity.PersonRequest;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

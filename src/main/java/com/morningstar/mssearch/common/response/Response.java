@@ -17,18 +17,18 @@ public class Response<T> implements Serializable {
         this.status = status;
     }
 
-    private Response(int status, T data) {
+    public Response(int status, T data) {
         this.status = status;
         this.data = data;
     }
 
-    private Response(int status, String msg, T data) {
+    public Response(int status, String msg, T data) {
         this.status = status;
         this.msg = msg;
         this.data = data;
     }
 
-    private Response(int status, String msg) {
+    public Response(int status, String msg) {
         this.status = status;
         this.msg = msg;
     }

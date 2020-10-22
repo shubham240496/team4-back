@@ -7,8 +7,17 @@ public class Post {
 
     private String title;
     private String content;
+    private String sourceType;
     private String url;
     private String createTime;
+
+    public String getSourceType() {
+        return sourceType;
+    }
+
+    public void setSourceType(String sourceType) {
+        this.sourceType = sourceType;
+    }
 
     public String getTitle() { return title; }
 

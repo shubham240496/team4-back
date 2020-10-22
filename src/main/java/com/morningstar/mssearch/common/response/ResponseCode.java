@@ -7,7 +7,7 @@ package com.morningstar.mssearch.common.response;
  */
 public enum ResponseCode {
 
-    SUCCESS(100, "SUCCESS"),
+    SUCCESS(200, "SUCCESS"),
     ERROR(500, "ERROR"),
 
     //自定义异常
